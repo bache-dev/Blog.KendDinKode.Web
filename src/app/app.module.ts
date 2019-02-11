@@ -4,9 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { TopmenuComponent } from './features/topmenu/topmenu.component';
+import { MainComponent } from './features/main/main.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TopmenuComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
